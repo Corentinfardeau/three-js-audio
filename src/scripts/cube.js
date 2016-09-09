@@ -29,4 +29,3 @@ export default class Cube extends THREE.Object3D {
   }
 
 }
-
