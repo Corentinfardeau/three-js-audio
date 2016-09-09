@@ -1,0 +1,22 @@
+/* ------------------------------------------------------------------ */
+/*        TITLE DECLARATION
+/* ------------------------------------------------------------------ */
+
+h1{
+	font-family: 'Lora', serif;
+	color : #FFFFFF;
+	font-size : 100px;
+	line-height : normal;
+	margin-bottom : 10px;
+}
+
+h1 span{
+	display: inline-block;
+	opacity : 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+	h1{
+		font-size : 50px;
+	}
+}

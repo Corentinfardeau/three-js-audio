@@ -1,0 +1,51 @@
+body{
+	overflow: hidden;
+	user-select: none; 
+	cursor: pointer;
+}
+
+.overlay{
+	background: black;
+}
+
+.credit, .instructions{
+	position : absolute;
+	bottom : 20px;
+	left : 20px;
+
+	text-transform : none;
+	letter-spacing : normal;
+	opacity : 1;
+}
+
+.credit a{
+	color : #FFFFFF;
+}
+
+.credit p{
+	text-transform : none;
+	letter-spacing : normal;
+	opacity : 1;
+}
+.instructions{
+	left : auto;
+	right : 20px;
+}
+
+.start{
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	color: black;
+	padding : 10px 30px;
+	border-radius : 30px;
+	margin-top : 50px;
+	opacity : 0;
+	cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+
+    &:hover{
+    	background: transparent;
+    	color: #FFFFFF;
+    }
+}
